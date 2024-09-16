@@ -15,11 +15,18 @@ We'll use the following tools:
 ->Node.js with Express.js for handling HTTP requests.
 ->JWT for token-based authentication.
 ->MongoDB or any in-memory storage (e.g., an array) for survey data storage.
+
+
            1.Create the folder structure
+           
            2.app.js - Main entry point
+           
            3.Authentication (JWT)
+           
            4.Middleware for authentication
+           
            5.Survey Management Endpoints (CRUD)
+           
            6.Testing the Microservice
 
 ........... Authentication endpoint:..................
