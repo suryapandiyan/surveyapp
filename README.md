@@ -23,6 +23,8 @@ We'll use the following tools:
            6.Testing the Microservice
 
 ........... Authentication endpoint:..................
+
+
 ○ This will be a public endpoint.
 ○ The request body will contain an arbitrary username/password pair.
 Note:
@@ -39,6 +41,8 @@ Login:
 
 
 ............ Survey REST API endpoints:............
+
+
 ○ The following endpoints should be protected. The JWT obtained in the
 ○ The “Authentication” endpoint will be attached to each request. If the JWT is
 ○ missing or invalid these endpoints should reject the request.
