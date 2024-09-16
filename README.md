@@ -1,8 +1,8 @@
- ............Build a simple stateless microservice with few API endpoints..........
+                                                        Build a simple stateless microservice with few API endpoints 
 
+ ● Authentication endpoint
  
-● Authentication endpoint
-● REST API endpoints for a survey app 
+ ● REST API endpoints for a survey app 
 
 
 To build a simple stateless microservice with Node.js, we'll create a microservice that includes
