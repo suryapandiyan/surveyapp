@@ -33,10 +33,13 @@ password.
 ○ Return a signed JSON Web tok
 
 Access the API
+
 => Your server will be running on http://localhost:3000 by default.
 Signup:
+
 =>Send a POST request to http://localhost:3000/api/auth/signup with JSON data
 Login:
+
 =>Send a POST request to http://localhost:3000/api/auth/login with the same credentials
 
 
@@ -49,12 +52,16 @@ Login:
 
 
 Create Survey:
+
 =>Send a POST request to http://localhost:3000/api/surveys with the Authorization header and survey data:
 Get All Surveys: 
+
 =>Send a GET request to http://localhost:3000/api/surveys with the Authorization header.
 Update Survey: 
+
 =>Send a PUT request to http://localhost:3000/api/surveys/:id (replace :id with the survey ID) with updated survey data and the Authorization header.
 Delete Survey: 
+
 =>Send a DELETE request to http://localhost:3000/api/surveys/:id (replace :id with the survey ID) with the Authorization header.
 
 
